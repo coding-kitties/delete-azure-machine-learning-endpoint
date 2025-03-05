@@ -1,0 +1,27 @@
+{
+    "name": "update-azure-machine-learning-endpoint",
+    "version": "1.0.0",
+    "description": "GitHub Action to update an Azure Machine Learning endpoint",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "@actions/core": "^1.11.1",
+        "@actions/exec": "^1.1.1",
+        "@actions/github": "^6.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/coding-kitties/delete-azure-machine-learning-endpoint.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/coding-kitties/delete-azure-machine-learning-endpoint/issues"
+    },
+    "homepage": "https://github.com/coding-kitties/delete-azure-machine-learning-endpoint#readme"
+}

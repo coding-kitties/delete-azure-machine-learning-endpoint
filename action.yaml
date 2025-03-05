@@ -1,0 +1,21 @@
+name: 'Delete Azure Machine Learning Endpoint'
+description: 'Delete an Azure Machine Learning Endpoint'
+author: 'Marc van Duyn'
+branding:
+  icon: 'cloud'
+  color: 'blue'
+
+inputs:
+  endpoint_name:
+    description: 'Name of the endpoint'
+    required: true
+  resource_group:
+    description: 'Azure Resource Group'
+    required: true
+  workspace_name:
+    description: 'Azure ML Workspace Name'
+    required: true
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
